@@ -3,6 +3,11 @@ tag: 分享
 create: 2023-05-14 15:36
 ---
 ![2 拷贝.png|1400](https://cwl-img.oss-cn-beijing.aliyuncs.com/202305141811205.png)
+## 项目地址
+下载一个Obsidian演示项目来直接体验
+- Gitee: <https://gitee.com/goblincwl/Obsidian-Template-DynamicSchedule>
+- GitHub: <https://github.com/GoblinCwl/Obsidian-Template-DynamicSchedule>
+
 ## 可以做到什么？
 1. 创建每天精确时间的固定日程任务
 2. 自动在配置的每周几时创建日程任务

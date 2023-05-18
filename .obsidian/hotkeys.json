@@ -1,0 +1,11 @@
+{
+  "obsidian-toggle-list:Task-Next": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": []
+}

@@ -1,0 +1,16 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "003.自我/日记/日记：2023年5月18日.md",
+      "date": "Thu May 18 2023"
+    }
+  ],
+  "completePastItems": false,
+  "circularProgress": false,
+  "nowAndNextInStatusBar": false,
+  "showTaskNotification": false,
+  "timelineZoomLevel": 4
+}

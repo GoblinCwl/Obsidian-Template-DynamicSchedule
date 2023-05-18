@@ -1,0 +1,59 @@
+{
+  "pop_state": {
+    "popon": false,
+    "hot": false,
+    "incr": 0
+  },
+  "plot": false,
+  "cmd_list": [
+    {
+      "index": 0,
+      "name": "Task",
+      "tmp_name": "Task",
+      "bindings": [
+        0
+      ],
+      "isPopOver": true
+    }
+  ],
+  "setup_list": [
+    {
+      "index": 0,
+      "all_states": "- [ ] \n- [x] \n- [/] ",
+      "states": [
+        "- [ ] ",
+        "- [x] ",
+        "- [/] "
+      ],
+      "sorteds": [
+        "- [ ] ",
+        "- [x] ",
+        "- [/] "
+      ],
+      "states_dict": {}
+    }
+  ],
+  "registedCmdName": [
+    "Task-Next",
+    "Task-Prev"
+  ],
+  "pop_context": {
+    "setup": {
+      "index": 0,
+      "all_states": "- [ ] \n- [x] \n- [/] ",
+      "states": [
+        "- [ ] ",
+        "- [x] ",
+        "- [/] "
+      ],
+      "sorteds": [
+        "- [ ] ",
+        "- [x] ",
+        "- [/] "
+      ],
+      "states_dict": {}
+    },
+    "stateIdx": 0,
+    "direction": 1
+  }
+}

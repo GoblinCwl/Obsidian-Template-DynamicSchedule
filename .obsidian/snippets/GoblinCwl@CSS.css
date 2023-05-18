@@ -1,0 +1,85 @@
+/* @settings
+
+name: GoblinCwl@css
+id: GoblinCwl@css
+settings:
+    -   
+        id: taskFailBoxColor
+        title: 任务失败复选框颜色
+        description: 更改任务状态为“/”时复选框的颜色
+        type: variable-color
+        opacity: false
+        format: hex
+        default: '#e66a51'
+    -   
+        id: taskFailTextColor
+        title: 任务失败文本颜色
+        description: 更改任务状态为“/”时文本的颜色
+        type: variable-color
+        opacity: false
+        format: hex
+        default: '#945b5b'
+    - 
+        id: dayPannel
+        title: Day Pannel 日程表
+        type: heading
+        level: 1
+        collapsed: true
+    -   
+        id: dayPannelTaskColor
+        title: 日程表任务颜色
+        description: 更改Day Pannel日程表中任务显示的颜色
+        type: variable-color
+        opacity: false
+        format: hex
+        default: '#FFFFFF'
+    -   
+        id: dayPannelHoverBackGroudColor
+        title: 日程表高亮背景色
+        description: 更改Day Pannel日程表高亮背景色
+        type: variable-color
+        opacity: false
+        format: hex
+        default: 'var(--interactive-accent-hover)'
+
+*/
+
+body {
+    --dayPannelTaskColor: #FFFFFF;
+    --dayPannelHoverBackGroudColor: var(--interactive-accent-hover);
+    --taskFailBoxColor: #e66a51;
+    --taskFailTextColor: #945b5b;
+}
+
+/*更改Day Pannel日程表中任务显示的颜色*/
+.ei_Copy.svelte-e43ld1.svelte-e43ld1 {
+    color: var(--dayPannelTaskColor)!important;
+}
+
+/**更改Day Pannel日程表hover背景色*/
+.event_item.svelte-e43ld1.svelte-e43ld1:hover{
+    background-color: var(--dayPannelHoverBackGroudColor)!important;
+}
+
+/**任务失败复选框颜色*/
+.task-list-item-checkbox[data-task="/"],ul > li.task-list-item[data-task="/"] .task-list-item-checkbox{
+    --checkbox-color: var(--taskFailBoxColor)!important;
+    --checkbox-color-hover: var(--taskFailBoxColor)!important;
+    border-color: var(--taskFailBoxColor) !important;
+}
+.task-list-item-checkbox[data-task="/"]:after,li.task-list-item[data-task="/"] .task-list-item-checkbox:after{
+    background-color: unset!important;
+}
+.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked {
+    border-color: var(--taskFailBoxColor) !important;
+}
+/*任务失败文本颜色*/
+ul > li.task-list-item[data-task="/"],.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="/"], .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="/"]{
+    text-decoration: var(--checklist-done-decoration)!important;
+    color: var(--taskFailTextColor)!important;
+}
+
+/**日程时间线Track开关去掉多余的对勾*/
+#scroll-controls.svelte-e43ld1 .toggle.svelte-e43ld1:after {
+    background-color: unset!important;
+}

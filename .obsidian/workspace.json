@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "273f65fd991e4d34",
+    "type": "split",
+    "children": [
+      {
+        "id": "13d4a38d032f18c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6745013d1e483c0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@模板/日记模板.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68ad52460e059bc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfe66c64ca2946b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6007b38458e710e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03788942085e390c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f2fe709449307b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "49faaaf5b80f50d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "de6dd3c9b1e80425",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6442b141c35c56a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "@模板/日记模板.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2518db0bd921295f",
+    "type": "split",
+    "children": [
+      {
+        "id": "944df8c60613b1cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e265234a24d6cd1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "@模板/日记模板.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dc9fdd1423a396f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "@模板/日记模板.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3558890b2544149",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "bdff1135dc76310e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba0b876b86de2e37",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "56ac2a486047129f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d2752b56a44937",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "6007b38458e710e6",
+  "lastOpenFiles": [
+    "@模板/周记模板.md",
+    "003.自我/排期计划.md",
+    "003.自我/周记/周记：2023年20周.md",
+    "003.自我/日记/日记：2023年5月18日.md",
+    "@模板/日记模板.md",
+    "002.工作/工作记录/日报/日报：2023年5月18日.md",
+    "@模板/工作记录/日报模板.md",
+    "002.工作/工作记录/日报",
+    "002.工作/工作记录",
+    "002.工作",
+    "@模板/工作记录",
+    "003.自我/日记/未命名.md",
+    "2023-05-18.md",
+    "003.自我/周记",
+    "003.自我/日记",
+    "003.自我",
+    "@模板",
+    "Day Planners/Day Planner-20230518.md",
+    "Day Planners"
+  ]
+}

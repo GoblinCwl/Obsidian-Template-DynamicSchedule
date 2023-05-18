@@ -1,0 +1,18 @@
+/* background */
+.graph > polygon{
+    fill:transparent
+  }
+.node > text{
+    fill:var(--color-base-100);
+    text-shadow: 1px 1px 1px var(--color-base-60);
+}
+.togglelist_theme > text{
+    fill:var(--color-base-100);
+    text-shadow: 1px 1px 1px var(--color-base-60);
+}
+.togglelist_theme > path {
+    stroke:var(--color-base-60);
+}
+.togglelist_div {
+    text-align: center;
+}

@@ -32,28 +32,5 @@
       ],
       "states_dict": {}
     }
-  ],
-  "registedCmdName": [
-    "Task-Next",
-    "Task-Prev"
-  ],
-  "pop_context": {
-    "setup": {
-      "index": 0,
-      "all_states": "- [ ] \n- [x] \n- [/] ",
-      "states": [
-        "- [ ] ",
-        "- [x] ",
-        "- [/] "
-      ],
-      "sorteds": [
-        "- [ ] ",
-        "- [x] ",
-        "- [/] "
-      ],
-      "states_dict": {}
-    },
-    "stateIdx": 0,
-    "direction": 1
-  }
+  ]
 }
